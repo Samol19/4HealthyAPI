@@ -1,7 +1,7 @@
 const {Sequelize} = require('sequelize');
 
 const database = "db_4healthy";
-const username = "postgres";
+const username = "postgre";
 const password = "7ohflSdwoK2gpTB274pd4hIrivB8LRUu";
 const host = "dpg-clgoss58td7s73bjs3bg-a";
 const port = "5432";
