@@ -12,7 +12,17 @@ GoalEndpoint = (app) => {
           return res.status(500).json({ message: "Internal server error" });
         }
       });
+      app.post(name, async (req, res) => {
+        const body = req.body;
+        
+        await Goal.create({
+          name:body.name,
+          description:body.description,
+        });
 
+
+    } 
+      );
   
 };
 
